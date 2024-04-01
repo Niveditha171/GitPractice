@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="parallelExecution">
+ <test thread-count="2" parallel="classes" name="Test">
+    <classes>
+      <class name="gitPract.PractPrioirity"/>
+    </classes>
+  </test>
+    <test thread-count="2" parallel="tests" name="Test1">
+    <classes>
+      <class name="gitPract.PractBact"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- parallelExecution -->
