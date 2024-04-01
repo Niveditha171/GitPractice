@@ -18,5 +18,11 @@ public class PractBact{
 		//driver.get("https://www.flipkart.com/");
 		Reporter.log("Executing chrome",true);
 	}
+	
+	@Test
+	public void run2()
+	{
+		Reporter.log("Executing chrome",true);
+	}
 
 }
