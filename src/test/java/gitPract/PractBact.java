@@ -11,6 +11,7 @@ public class PractBact{
 		//driver.get("https://www.amazon.in/");
 		Reporter.log("Executing chrome",true);
 		Reporter.log("hello",true);
+		Reporter.log("new branch",true);
 	}
 	
 	@Test
